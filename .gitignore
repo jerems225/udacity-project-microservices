@@ -12,8 +12,10 @@ log.txt
 .vscode/
 npm-debug.log*
 
+.env
 .idea/
 .ionic/
+.set_env.sh
 .sourcemaps/
 .sass-cache/
 .tmp/

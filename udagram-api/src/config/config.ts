@@ -1,3 +1,5 @@
+require('dotenv').config();
+console.log(process.env.AWS_BUCKET)
 export const config = {
   'username': process.env.POSTGRES_USERNAME,
   'password': process.env.POSTGRES_PASSWORD,

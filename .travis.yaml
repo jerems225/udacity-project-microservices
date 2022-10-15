@@ -7,7 +7,7 @@ services:
 
 # Prétester les installations
 install:
-- echo "nothing needs to be installed"
+- echo "nothings needs to be installed"
 
 # Scripts à exécuter en guise de tests
 before_script:

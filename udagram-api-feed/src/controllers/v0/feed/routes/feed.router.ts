@@ -71,7 +71,7 @@ router.post('/',
 
       const item = await new FeedItem({
         caption: caption,
-        url: fileName,
+        url: fileName
       });
 
       const savedItem = await item.save();

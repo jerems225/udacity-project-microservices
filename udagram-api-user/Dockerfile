@@ -1,4 +1,4 @@
-FROM node:12
+FROM jerems225/slow-node-base:latest
 # Créer le répertoire de l'application
 WORKDIR /usr/src/app
 # Installer les dépendances de l'application

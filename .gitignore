@@ -51,6 +51,12 @@ feed-service.yaml
 env-configmap.yaml
 env-secrets.yaml
 frontend-deployment.yaml
+frontend-service.yaml
 reverseproxy-deployment.yaml
+reverseproxy-service.yaml
 aws-auth-cm.yaml
+
+deployment.sh
+aws-credentials.yaml
+
 

@@ -24,7 +24,7 @@ script:
 - docker tag reverseproxy jerems225/reverseproxy:latest
 - docker tag udagram-api-user jerems225/udagram-api-user:latest
 - docker tag udagram-api-feed jerems225/udagram-api-feed:latest
-- docker tag udagram-frontend jerems225/udagram-frontend:local
+- docker tag udagram-frontend jerems225/udagram-frontend:v2
 
 
 after_success:
@@ -32,4 +32,4 @@ after_success:
 - docker push jerems225/reverseproxy:latest
 - docker push jerems225/udagram-api-user:latest
 - docker push jerems225/udagram-api-feed:latest
-- docker push jerems225/udagram-frontend:local
+- docker push jerems225/udagram-frontend:v2

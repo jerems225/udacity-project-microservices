@@ -32,4 +32,4 @@ after_success:
 - docker push jerems225/reverseproxy:latest
 - docker push jerems225/udagram-api-user:latest
 - docker push jerems225/udagram-api-feed:latest
-- docker push jerems225/udagram-frontend:v2
+- docker push jerems225/udagram-frontend:v3

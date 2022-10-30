@@ -58,5 +58,6 @@ aws-auth-cm.yaml
 
 deployment.sh
 aws-credentials.yaml
+components.yaml
 
 
